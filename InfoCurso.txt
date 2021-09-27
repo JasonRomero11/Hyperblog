@@ -1,0 +1,30 @@
+mkdir #NameFolder
+
+git config --list
+
+//permite configuras usuario, name 
+
+
+git log #NameFile 
+
+// permite ver el historial de cambios 
+
+
+git show #NameFile
+
+//permite ver cuales fueron los cambios
+
+
+
+//Como funciona del git init
+
+Directorio ---- (Staging) ---- Repositorio 
+
+Cuando se modifica un archivo, queda en un proceso llamado Untracked 
+
+cuadno damos git add, pasa al staging y es tracked 
+
+
+Que son las ramas: 
+
+
