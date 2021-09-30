@@ -27,4 +27,64 @@ cuadno damos git add, pasa al staging y es tracked
 
 Que son las ramas: 
 
+Master v1, v2, v3 .... 
 
+Cada v# es un commit 
+
+
+
+
+Unir cambios de una rama con otra, es lo que se llama merge
+
+
+
+
+//Volver en el tiempo 
+
+git reset #codigo del log --hard
+
+
+
+git log --stat  //cantidad de cambios por cada log 
+
+
+
+
+
+
+//
+
+git pull -- copia repositorio y drectorios 
+
+
+
+el head es el commit mas reciente 
+las ramas son formas de hacer cambios sin afectar la principal rama 
+
+//crear una nueva rama, cabecera es crear una copia de la master 
+
+
+//crear rama 
+
+git branch cabecera
+
+// para entrar a esa rama
+
+git checkout #namebranch
+
+//fusion de ramas con merge
+
+git merge #namebrach donde traiho los otros ajustes
+
+exc +shif +zz
+
+
+
+//se crea un nuevo repositorio ,. ahora vamos a agregar los codigos 
+
+
+git remote add origing https://github.com/JasonRomero11/Hyperblog.git
+
+git remote -v
+fetch es traer cosas
+push es enviar cosas
