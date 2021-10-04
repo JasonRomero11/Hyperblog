@@ -88,3 +88,7 @@ git remote add origing https://github.com/JasonRomero11/Hyperblog.git
 git remote -v
 fetch es traer cosas
 push es enviar cosas
+
+git push origin maste
+git pull origin master 
+
