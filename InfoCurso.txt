@@ -92,3 +92,8 @@ push es enviar cosas
 git push origin maste
 git pull origin master 
 
+
+
+
+/para clonar
+
